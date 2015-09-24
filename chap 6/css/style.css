@@ -1,0 +1,189 @@
+header {
+	display: block;
+	color: 046380;
+	background-color: #A7A37E;
+	margin-top: 50px;
+	text-align: center;
+	margin-top: 1px;
+	
+}
+
+header h1 {
+	font-family: "pacifico";
+}
+
+
+
+
+#blog {
+	display: inline-block;
+	font-weight: bold;
+	float: right;
+	 margin-right: 2%;
+}
+
+#home {
+	float: left;
+	margin-left: 2%;
+	font-weight: bold;
+}
+
+header h1  {
+
+line-height: 50px;
+display: inline-block;
+
+}
+
+div {
+	width: 900px;
+	
+
+}
+
+#outserv {
+	
+float: left;
+padding: 2px;
+}
+
+img {
+	float:right;
+}
+
+#photodiv {
+	float:left;
+	border: solid black 1px;
+	padding: 1px;
+	margin-left: 35px;
+	width: 40%;
+	background-color: #EFECCA;
+	height: auto;
+	color: 046380;
+	
+	
+	
+}
+
+#designdiv {
+
+	border: solid black 1px;
+	padding: 1px;
+	float: right;
+	margin-right: 35px;
+	width: 40%;
+	background-color: #EFECCA;
+	height: auto;
+	color: 046380;
+}
+hr {
+	clear: both;
+}
+
+#wrapper {
+	width: 80%;
+	
+	margin: 0 auto;
+	display: block;
+	color: #333;
+	background-color: #E6E2AF;
+    
+}
+
+body {
+	font-family: Lato, sans-serif;
+	line-height: 1.6;
+	font-size: 18px;
+	color: blue;
+	background-color: #002F2F
+
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+img {
+	margin-top: 20px;
+}
+
+#photoh1{
+	
+}
+
+#designh1 {
+	
+	
+}  
+
+#ourwork {
+	text-align: center;
+	display: inline-block;
+	color: 046380;
+	width: 90%;
+	background-color: #A7A37E;
+	margin-top: 15px;
+	margin-left: 5%;
+
+
+
+}
+
+#ourworkpics {
+	display: block;
+	background-color: #E6E2AF;
+
+}
+
+
+#ourwork img {
+
+	display: inline-block;
+	float: left;
+	margin-left: 50px;
+	border: solid black 1px;
+	margin-top: 0.1px;
+	margin-bottom: 10px;
+    width: 10%;
+}
+
+#ourwork h1 {
+	margin-top: 2px;
+	margin-bottom: 1px;
+}
+
+#fb {
+	margin-right: 3%;
+	margin-left: 1%;
+	width: 3em;
+	margin-top: 2em;
+
+}
+
+#twitter {
+	margin-right: 3%;
+	margin-left: 1%;
+	width: 3em;
+	margin-top: 2em;
+}
+
+#insta {
+margin-right: 3%;
+	margin-left: 1%;
+	width: 3em;	
+	margin-top: 2em;
+}
+
+footer {
+	margin-top: 2%; 
+	margin-bottom: 1%;
+	background-color: #A7A37E;
+	text-align: center;
+	width: 100%;
+
+}
