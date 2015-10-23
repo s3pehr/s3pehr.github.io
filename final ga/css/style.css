@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Gabriela);
+
+header a {
+	float: left;
+	margin-top: 4%;
+	margin-left: 7%;
+}
+
+header {
+	background-color: white;
+}
+
+header h1 {
+	float: right;
+	margin-right: 6%;
+	font-family: Gabriela; 
+	color: #B12A00;
+}
+
+#logo {
+	float: left;
+	margin-left: 14%;
+}
+
+nav {
+	margin-left: 20%;
+}
+nav a {
+	color: #2A5DB0;
+}
+
+a:hover {
+	color: #B12A00;
+	
+}
+
+body {
+	background-color: #DADADA;
+}
+
+#wrapper {
+width: 85%;
+height: 125%;
+margin: 15% auto 0 auto;
+background-color: #D0D0DA;
+display: block;
+clear: both;
+}
+
+#laptops {
+	text-align: center;
+	width: 40%;
+	margin-left: 10%;
+	display: inline-block;
+	margin-top: 7%;
+	clear: both;
+
+}
+
+h2 {
+	color: #2A5DB0;
+}
+#laptops h2 {
+	margin-top: 0.2%;
+	
+}
+
+#repair {
+	width: 40%;
+	float: left;
+	text-align: center;
+	margin-top: 7%;
+	margin-left: 5%;
+
+}
+
+#laptops a, #repair a {
+	text-decoration: none;
+	padding: 0.5%;
+}
+
+hr {
+	clear: both;
+}
+
+#lforsale {
+	font-family: Gabriela; 
+	text-align: center;
+}
+
+p {
+	font-size: 1rem;
+	padding: 1%;
+	
+}
+
+#forrepair {
+	font-family: Gabriela; 
+	text-align: center;
+}
