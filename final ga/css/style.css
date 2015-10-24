@@ -11,6 +11,7 @@ header {
 }
 
 header h1 {
+	font-size: 25px;
 	float: right;
 	margin-right: 6%;
 	font-family: Gabriela; 
@@ -20,6 +21,10 @@ header h1 {
 #logo {
 	float: left;
 	margin-left: 14%;
+}
+
+img {
+	max-width: 100%;
 }
 
 nav {
@@ -40,7 +45,7 @@ body {
 
 #wrapper {
 width: 85%;
-height: 125%;
+height: 120%;
 margin: 15% auto 0 auto;
 background-color: #D0D0DA;
 display: block;
@@ -50,10 +55,11 @@ clear: both;
 #laptops {
 	text-align: center;
 	width: 40%;
-	margin-left: 10%;
+	margin-left: 15%;
 	display: inline-block;
 	margin-top: 7%;
 	clear: both;
+	float: right;
 
 }
 
@@ -62,7 +68,13 @@ h2 {
 }
 #laptops h2 {
 	margin-top: 0.2%;
+	font-size: 20px;
 	
+}
+
+#repair h2 {
+	margin-top: 4%;
+	font-size: 20px;
 }
 
 #repair {
@@ -97,4 +109,52 @@ p {
 #forrepair {
 	font-family: Gabriela; 
 	text-align: center;
+}
+
+footer {
+	text-align: center;
+	margin-top: 3%;
+	clear: both;
+}
+
+@media only screen and (max-width: 700px) {
+
+#repair {
+	float: none;
+	clear: both;
+	text-align: center;
+	margin: 0;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#laptops {
+	float: none;
+	display: block;
+	clear: both;
+	text-align: center;
+	margin: 0;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#wrapper {
+	
+}
+
+img {
+	max-width: 100%;
+
+}
+
+#des h1 {
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 8%;
+}
+
+#des {
+	width: auto;
+}
+
 }
