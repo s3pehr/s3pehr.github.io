@@ -7,7 +7,7 @@ header a {
 }
 
 header {
-	background-color: white;
+	position: relative;
 }
 
 header h1 {
@@ -16,11 +16,14 @@ header h1 {
 	margin-right: 6%;
 	font-family: Gabriela; 
 	color: #B12A00;
+	margin-top: 1.5%;
+	width: auto;
 }
 
 #logo {
 	float: left;
 	margin-left: 14%;
+
 }
 
 img {
@@ -31,7 +34,17 @@ nav {
 	margin-left: 20%;
 }
 nav a {
-	color: #2A5DB0;
+	color: black;
+	background-color: orange;
+	padding: 0.4%;
+	border-radius: 25px;
+	font-size: 1.5em;
+	text-decoration: none;
+	margin-top: 1.5%;
+	font-weight: 500;
+	border: 1px solid gray;
+	border-collapse: collapse;
+
 }
 
 a:hover {
