@@ -56,6 +56,8 @@ body {
 	background-color: #DADADA;
 }
 
+
+
 #wrapper {
 width: 85%;
 height: 120%;
@@ -113,10 +115,15 @@ hr {
 	text-align: center;
 }
 
-p {
-	font-size: 1rem;
-	padding: 1%;
-	
+#des p {
+	font-size: 1.2em;
+	line-height: 98%;
+}
+
+#des h1 {
+	font-weight: 700;
+	font-size: 1.2em;
+	margin-bottom: 1%;
 }
 
 #forrepair {
