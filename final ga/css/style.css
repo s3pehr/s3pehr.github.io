@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Gabriela);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 
 header a {
 	float: left;
@@ -8,6 +9,7 @@ header a {
 
 header {
 	position: relative;
+
 }
 
 header h1 {
@@ -15,8 +17,8 @@ header h1 {
 	float: right;
 	margin-right: 6%;
 	font-family: Gabriela; 
-	color: #B12A00;
-	margin-top: 1.5%;
+	color: #D7D9D7;
+	margin-top: 1.6%;
 	width: auto;
 }
 
@@ -44,36 +46,43 @@ nav a {
 	font-weight: 500;
 	border: 1px solid gray;
 	border-collapse: collapse;
+	box-shadow: .15em .15em;
 
 }
 
 a:hover {
 	color: #B12A00;
-	
+	font-weight: 700;
+}
+
+#callnow {
+	display: none;
 }
 
 body {
-	background-color: #DADADA;
+	background-color: #58594F;
 }
 
 
 
 #wrapper {
-width: 85%;
-height: 120%;
+width: 93%;
+height: auto;
 margin: 15% auto 0 auto;
-background-color: #D0D0DA;
+background-color: #D7D9D7;
 display: block;
 clear: both;
+border-radius: 25px;
 }
 
 #laptops {
 	text-align: center;
 	width: 40%;
-	margin-left: 15%;
+	margin-left: 5%;
+	margin-right: 5%;
 	display: inline-block;
 	margin-top: 7%;
-	clear: both;
+	
 	float: right;
 
 }
@@ -116,25 +125,36 @@ hr {
 }
 
 #des p {
-	font-size: 1.2em;
-	line-height: 98%;
+	font-size: 1.4em;
+	line-height: 1.5rem;
+	word-spacing: 0.1rem;
+	padding: 1em;
+	font-family: "Yanone Kaffeesatz",sans-serif;
 }
 
 #des h1 {
 	font-weight: 700;
 	font-size: 1.2em;
 	margin-bottom: 1%;
+	
 }
+
+
+
 
 #forrepair {
 	font-family: Gabriela; 
 	text-align: center;
 }
 
-footer {
+#footer {
+	margin-top: 1%;
 	text-align: center;
-	margin-top: 3%;
-	clear: both;
+}
+
+p a {
+	text-decoration: none;
+	color: gray;
 }
 
 @media only screen and (max-width: 700px) {
@@ -159,6 +179,8 @@ footer {
 }
 
 #wrapper {
+
+	height: auto;
 	
 }
 
