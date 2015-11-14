@@ -50,10 +50,26 @@ nav a {
 
 }
 
-a:hover {
-	color: #B12A00;
+nav a:hover {
+	background-color: #B12A00;
 	font-weight: 700;
+
 }
+
+#repairimg, #laptopimg {
+	-webkit-filter: invert(40%);
+}
+
+#laptopimg:hover {
+	-webkit-filter: invert(0%);
+}
+
+#repairimg:hover {
+	-webkit-filter: invert(0%);
+}
+
+
+
 
 #callnow {
 	display: none;
